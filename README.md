@@ -1,7 +1,7 @@
 # oregon critters
 A computer vision model for classifying camera trap images from western Oregon -- created by Cara Appel @appelc
 
-** Please note that this repository is in active development and more documentation will be added. Feel free to reach out to let me know if you are using it.
+** Please note that this repository is in active development and more documentation will be added. Feel free to [contact me](mailto:cara.appel@oregonstate.edu). to let me know if you are using it.
 
 ### Intro
 This repository contains the trained model weights file (**oregoncritters_V1.pt**), a list of species classes that the model is trained to identify (**classes.csv**), and a folder with several scripts to process images and format predictions for further review. 
