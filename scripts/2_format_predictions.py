@@ -1,5 +1,7 @@
-## Convert YOLO predictions CSV to COCO json format (used to create a FiftyOne dataset or visualize with 2_prep/6_visualize_boxes.ipynb)
-## -- can also be used for Timelapse?
+## Converts YOLO predictions text files to the following formats:
+## - CSV
+## - COCO json (compatible with many tools, e.g., creating a FiftyOne dataset)
+## - TXT file used to create Njobvu-AI project
 
 import pandas as pd
 import json

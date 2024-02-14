@@ -1,6 +1,4 @@
-##!/raid1/home/fw/appelc/local/envs/yolov8/bin/python3
-
-# Scans a directory for missing or corrupt images and creates a text file of cleaned image names
+# Scans a directory for missing or corrupt images and creates a text list of cleaned image names
 
 from PIL import Image
 import os

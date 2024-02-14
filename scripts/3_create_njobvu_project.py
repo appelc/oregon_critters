@@ -1,10 +1,5 @@
-#!/usr/bin/python3
-# Ashwin Subramanian
+# Created by Ashwin Subramanian -- modified by Cara Appel to work with local version of Njobvu-AI tool
 # This code creates a labeling tool project from photos and a class list CSV
-# All the code here is hardcoded to work with the aviann server only 
-
-# Modified by Cara Appel to work with local version of Njobvu-AI tool
-# February 2024
 
 import os
 import sqlite3
