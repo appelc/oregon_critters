@@ -1,12 +1,13 @@
 # oregon critters
 A computer vision model for classifying camera trap images from western Oregon -- created by Cara Appel @appelc
 
-Please note that this repository is in active development. Please feel free to reach out 
+** Please note that this repository is in active development. Feel free to reach out to let me know if you are using it.
 
-Below are steps to run predictions on your images and to review them using several options for external software.
+### Intro
+This repository contains the trained model weights file (**oregoncritters_V1.pt**), a list of species classes that the model is trained to identify (**classes.csv**), and a folder with several scripts to process images and format predictions for further review. 
 
 ### Requirements
-This model uses python scripts and relies on the _ultralytics_ package for deploying the YOLOv8 model. See installation instructions here: https://docs.ultralytics.com/quickstart/#install-ultralytics
+This model uses python scripts and relies on the _ultralytics_ package for deploying the YOLOv8 model. See installation instructions here: https://docs.ultralytics.com/quickstart/#install-ultralytics. Processing can be done on CPU or GPUs.
 
 ### Workflow overview
 1. Rename your images, if necessary. Filenames must be unique within a folder, so rename them if you need to. I like the renaming workflow in the camtrapR package: https://jniedballa.github.io/camtrapR/
