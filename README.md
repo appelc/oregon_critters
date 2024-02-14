@@ -1,5 +1,5 @@
 # oregon critters
-A computer vision model for classifying camera trap images from western Oregon -- created by Cara Appel @appelc
+A computer vision model for classifying camera trap images from western Oregon -- created by Cara Appel
 
 ** Please note that this repository is in active development and more documentation will be added. Feel free to [contact me](mailto:cara.appel@oregonstate.edu). to let me know if you are using it.
 
